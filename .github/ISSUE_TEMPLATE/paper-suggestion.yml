@@ -1,0 +1,85 @@
+name: Paper suggestion
+description: Propose a paper for the curated AI-for-cybersecurity reading list.
+title: "[Paper]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Before submitting, please read the scope, taxonomy, inclusion criteria, and CONTRIBUTING.md, then search for earlier versions of the paper."
+  - type: input
+    id: paper_title
+    attributes:
+      label: Paper title
+      placeholder: Exact title from the paper or official proceedings page
+    validations:
+      required: true
+  - type: input
+    id: official_link
+    attributes:
+      label: Official paper link
+      description: Prefer a proceedings, publisher, conference, author, DOI, or arXiv page.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: metadata
+    attributes:
+      label: Authors and publication metadata
+      description: Provide the complete ordered authors, year, venue, and verified publication status.
+      placeholder: "Authors: ...\nYear: ...\nVenue: ...\nStatus: peer-reviewed / accepted / preprint / technical-report"
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Main contribution
+      description: Summarize the identifiable research contribution in one or two precise sentences without copying the abstract.
+    validations:
+      required: true
+  - type: textarea
+    id: why_read
+    attributes:
+      label: Why it belongs in this list
+      description: Explain its reading value, influence, evaluation quality, or importance to an emerging research direction.
+    validations:
+      required: true
+  - type: dropdown
+    id: primary_task
+    attributes:
+      label: Proposed primary security task
+      options:
+        - Vulnerability Discovery and Analysis
+        - Program Understanding and Reverse Engineering
+        - AI for Cryptography and Cryptanalysis
+        - Exploitation and Offensive Security
+        - Remediation and Secure Software Engineering
+        - Malware and Unwanted Software
+        - Network, Host, and Infrastructure Defense
+        - Social Engineering, Identity, and Abuse
+        - Threat Intelligence, SOC, and Incident Response
+        - Survey, SoK, or Perspective
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Important limitations
+      description: Note the main limitation, threat-to-validity issue, or boundary of the evaluation.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Official artifacts and evidence
+      description: Add code, dataset, project, benchmark, leaderboard, talk, author thread, or independent technical-discussion links.
+      placeholder: One URL per line
+  - type: checkboxes
+    id: scope_confirmation
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: The paper uses AI substantively for a concrete cybersecurity task and is not primarily about Security of AI.
+          required: true
+        - label: I searched the README and papers.yaml for duplicate or superseded versions.
+          required: true
+        - label: The metadata and artifact links above are publicly verifiable.
+          required: true

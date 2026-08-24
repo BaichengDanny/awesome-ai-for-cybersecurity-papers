@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If this catalog supports your research, please cite it using the metadata below."
+title: "Awesome AI for Cybersecurity Papers"
+type: dataset
+authors:
+  - family-names: "Chen"
+    given-names: "Baicheng"
+repository-code: "https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers"
+url: "https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers"
+license: MIT
