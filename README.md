@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Validate catalog](https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers/actions/workflows/validate.yml/badge.svg)](https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers/actions/workflows/validate.yml)
-[![Welcome PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers/pulls)
+[![Welcome PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > A curated, taxonomy-driven reading list on using AI to understand, assess, attack, and defend cyber systems.
 
@@ -172,7 +172,7 @@ This section is reserved for work that synthesizes multiple primary security tas
 
 ## Benchmark Papers
 
-This section collects benchmark and dataset papers that define reusable tasks, environments, corpora, or evaluation protocols for AI-for-cybersecurity research.
+This section collects benchmark and dataset papers that define reusable tasks, environments, corpora, or evaluation protocols for AI for cybersecurity research.
 
 - **AICrypto: Evaluating Cryptography Capabilities of Large Language Models**  
   Yu Wang et al. *ICML 2026*.  
@@ -386,7 +386,7 @@ This section collects benchmark and dataset papers that define reusable tasks, e
 
 ## Papers by Security Task
 
-This is the primary task-oriented view of the catalog: every paper has one canonical security-task placement even when it also appears in the benchmark or AI-enabled-attack-defense section.
+This is the primary task-oriented view of the catalog: every paper has one canonical security-task placement even when it also appears in the benchmark section.
 
 ### Vulnerability Discovery and Analysis
 
