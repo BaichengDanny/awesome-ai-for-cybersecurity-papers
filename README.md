@@ -1,9 +1,9 @@
 # Awesome AI for Cybersecurity Papers
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Validate catalog](https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers/actions/workflows/validate.yml/badge.svg)](https://github.com/BaichengDanny/awesome-ai-for-cybersecurity-papers/actions/workflows/validate.yml)
-[![Welcome PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](CONTRIBUTING.md)
 
 > A curated, taxonomy-driven reading list on using AI to understand, assess, attack, and defend cyber systems.
 
