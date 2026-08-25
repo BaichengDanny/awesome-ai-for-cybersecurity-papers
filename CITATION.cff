@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If this catalog supports your research, please cite it using the metadata below."
 title: "Awesome AI for Cybersecurity Papers"
-type: dataset
+type: software
 authors:
   - family-names: "Chen"
     given-names: "Baicheng"
