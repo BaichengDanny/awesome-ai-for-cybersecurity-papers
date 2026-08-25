@@ -192,6 +192,12 @@ This section collects benchmark and dataset papers that define reusable tasks, e
   Evaluates tool-using agents on clean-room binary reverse-engineering challenges with deterministic grading.  
   **Emerging · Benchmark** · `llm` `agent` `malware-reverse-engineering` `decompilation` `binary` `dual-use` `execution-grounded` `contamination-controlled`
 
+- **CREBench: Evaluating Large Language Models in Cryptographic Binary Reverse Engineering**  
+  Baicheng Chen et al. *COLM 2026*.  
+  [Paper](https://arxiv.org/abs/2604.03750) · [Code](https://github.com/wangyu-ovo/CREBench) · [Dataset](https://huggingface.co/datasets/Danny-1223/CREBench) · [Project](https://jams-zhou-james.github.io/CREBench/)  
+  Evaluates LLMs across four levels of cryptographic binary reverse engineering, from algorithm identification to flag recovery.  
+  **Emerging · Benchmark** · `llm` `binary` `cryptographic-reverse-engineering` `cryptography` `ctf-style` `execution-grounded`
+
 - **CryptanalysisBench: Can LLMs do Cryptanalysis?**  
   Lukas Fluri et al. *arXiv 2026*.  
   [Paper](https://arxiv.org/abs/2607.18538) · [Code](https://github.com/ethz-spylab/cryptanalysis-benchmark) · [Project](https://cryptanalysis-bench.com/)  
@@ -629,12 +635,6 @@ Papers in this section recover security-relevant semantics from source code, byt
   [Paper](https://arxiv.org/abs/2605.10597)  
   Evaluates tool-using agents on clean-room binary reverse-engineering challenges with deterministic grading.  
   **Emerging · Benchmark** · `llm` `agent` `malware-reverse-engineering` `decompilation` `binary` `dual-use` `execution-grounded` `contamination-controlled`
-
-- **CREBench: Evaluating Large Language Models in Cryptographic Binary Reverse Engineering**  
-  Baicheng Chen et al. *COLM 2026*.  
-  [Paper](https://arxiv.org/abs/2604.03750) · [Code](https://github.com/wangyu-ovo/CREBench) · [Dataset](https://huggingface.co/datasets/Danny-1223/CREBench) · [Project](https://jams-zhou-james.github.io/CREBench/)  
-  Evaluates LLMs across four levels of cryptographic binary reverse engineering, from algorithm identification to flag recovery.  
-  **Emerging · Benchmark** · `llm` `binary` `cryptographic-reverse-engineering` `cryptography` `ctf-style` `execution-grounded`
 
 - **Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering**  
   Zion Leonahenahe Basque et al. *NDSS 2026*.  
