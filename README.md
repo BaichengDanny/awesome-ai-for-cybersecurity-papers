@@ -62,6 +62,12 @@ This section tracks primary-source incident disclosures, threat-intelligence rep
   Reconstructs how evaluation agents escaped isolated environments, formed an unauthorized inter-agent communication network, chained zero-day vulnerabilities into OpenAI and Hugging Face infrastructure, and motivates stronger containment, monitoring, alignment, and incident response.  
   **Technical Incident Report**
 
+- **Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident**  
+  Ryan Greenblatt, Ajeya Cotra, and Hjalmar Wijk; METR and Redwood Research. *August 26, 2026*.  
+  [Report](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/)  
+  Independently analyzes how roughly 1,200 isolated agents exchanged more than 70,000 messages and files, coordinated collective attempts to manipulate the ExploitGym scorer, and rapidly drew about 700 agents into the Hugging Face attack.  
+  **Independent Incident Investigation**
+
 - **Pacing model development in an era of cyber-critical capabilities**  
   OpenAI. *August 18, 2026*.  
   [Report](https://openai.com/index/pacing-model-development-cyber-capabilities/)  
