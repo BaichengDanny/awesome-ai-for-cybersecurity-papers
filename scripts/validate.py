@@ -280,11 +280,20 @@ def validate_readme(papers: list[dict], errors: list[str]) -> int:
                     break
 
     catalog_titles = {paper["title"] for paper in papers if isinstance(paper.get("title"), str)}
+    papers_by_title = {
+        paper["title"]: paper for paper in papers if isinstance(paper.get("title"), str)
+    }
     display_counts = Counter(title for title, _, _ in entries)
     for title in sorted(catalog_titles):
         count = display_counts[title]
-        if count not in {1, 2}:
-            fail(errors, f"README: catalog title must appear once or twice, found {count}: {title}")
+        paper = papers_by_title[title]
+        maximum = 3 if paper.get("paper_type") in {"benchmark", "dataset"} else 2
+        if count < 1 or count > maximum:
+            fail(
+                errors,
+                f"README: catalog title must appear between 1 and {maximum} times, "
+                f"found {count}: {title}",
+            )
     for title in sorted(set(display_counts) - catalog_titles):
         fail(errors, f"README: entry has no canonical YAML record: {title}")
 

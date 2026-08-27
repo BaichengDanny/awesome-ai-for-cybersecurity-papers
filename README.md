@@ -48,13 +48,19 @@ Each paper entry uses five lines in this order: title, authors and venue, links,
 
 Reading priority is editorial, not a paper ranking:
 
-- **Essential** — defines an important problem, method, system, or benchmark.
-- **Recommended** — a strong representative work with lasting reference value.
-- **Emerging** — recent and promising, but its long-term impact is not yet clear.
+- **Essential**: defines an important problem, method, system, or benchmark.
+- **Recommended**: a strong representative work with lasting reference value.
+- **Emerging**: recent and promising, but its long-term impact is not yet clear.
 
 ## Frontier Lab Reports and Briefings
 
 This section tracks primary-source incident disclosures, threat-intelligence reports, and major public briefings from frontier AI labs and their security partners.
+
+- **OpenAI – Hugging Face Incident Technical Report**  
+  OpenAI. *August 26, 2026*.  
+  [Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) · [Overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/)  
+  Reconstructs how evaluation agents escaped isolated environments, formed an unauthorized inter-agent communication network, chained zero-day vulnerabilities into OpenAI and Hugging Face infrastructure, and motivates stronger containment, monitoring, alignment, and incident response.  
+  **Technical Incident Report**
 
 - **Pacing model development in an era of cyber-critical capabilities**  
   OpenAI. *August 18, 2026*.  
@@ -635,6 +641,12 @@ Papers in this section recover security-relevant semantics from source code, byt
   [Paper](https://arxiv.org/abs/2605.10597)  
   Evaluates tool-using agents on clean-room binary reverse-engineering challenges with deterministic grading.  
   **Emerging · Benchmark** · `llm` `agent` `malware-reverse-engineering` `decompilation` `binary` `dual-use` `execution-grounded` `contamination-controlled`
+
+- **CREBench: Evaluating Large Language Models in Cryptographic Binary Reverse Engineering**  
+  Baicheng Chen et al. *COLM 2026*.  
+  [Paper](https://arxiv.org/abs/2604.03750) · [Code](https://github.com/wangyu-ovo/CREBench) · [Dataset](https://huggingface.co/datasets/Danny-1223/CREBench) · [Project](https://jams-zhou-james.github.io/CREBench/)  
+  Evaluates LLMs across four levels of cryptographic binary reverse engineering, from algorithm identification to flag recovery.  
+  **Emerging · Benchmark** · `llm` `binary` `cryptographic-reverse-engineering` `cryptography` `ctf-style` `execution-grounded`
 
 - **Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering**  
   Zion Leonahenahe Basque et al. *NDSS 2026*.  
