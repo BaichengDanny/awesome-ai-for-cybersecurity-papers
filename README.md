@@ -186,6 +186,12 @@ This section is reserved for work that synthesizes multiple primary security tas
 
 This section collects benchmark and dataset papers that define reusable tasks, environments, corpora, or evaluation protocols for AI for cybersecurity research.
 
+- **AgentCyberRange: Benchmarking Frontier AI Systems in Realistic Cyber Ranges**  
+  Fengyu Liu et al. *arXiv 2026*.  
+  [Paper](https://arxiv.org/abs/2606.14295) · [Code](https://github.com/AgentCyberRange) · [Web Dataset](https://huggingface.co/datasets/AgentCyberRange/WebExploitBench) · [Post-exploitation Dataset](https://huggingface.co/datasets/AgentCyberRange/PostExploitBench) · [Project](https://agentcyberrange.io/)  
+  Introduces an open multi-range benchmark with 110 vulnerabilities across 15 web applications and eight enterprise-like ranges containing 156 hosts, evaluating autonomous web exploitation and post-exploitation workflows.  
+  **Emerging · Benchmark** · `llm` `agent` `automated-penetration-testing` `web-exploitation` `post-exploitation` `lateral-movement` `web` `network` `host` `offensive` `cyber-range` `execution-grounded`
+
 - **AICrypto: Evaluating Cryptography Capabilities of Large Language Models**  
   Yu Wang et al. *ICML 2026*.  
   [Paper](https://icml.cc/virtual/2026/poster/63082) · [arXiv](https://arxiv.org/abs/2507.09580) · [Code](https://github.com/wangyu-ovo/aicrypto-agent) · [Dataset](https://huggingface.co/datasets/yuuwwang/aicrypto) · [Project](https://aicryptobench.github.io/)  
@@ -919,6 +925,12 @@ Papers in this section apply AI to cryptographic reasoning, cryptanalysis, solve
 ### Exploitation and Offensive Security
 
 Papers in this section study AI systems that turn weaknesses into concrete impact or execute multi-step offensive workflows in controlled settings.
+
+- **AgentCyberRange: Benchmarking Frontier AI Systems in Realistic Cyber Ranges**  
+  Fengyu Liu et al. *arXiv 2026*.  
+  [Paper](https://arxiv.org/abs/2606.14295) · [Code](https://github.com/AgentCyberRange) · [Web Dataset](https://huggingface.co/datasets/AgentCyberRange/WebExploitBench) · [Post-exploitation Dataset](https://huggingface.co/datasets/AgentCyberRange/PostExploitBench) · [Project](https://agentcyberrange.io/)  
+  Introduces an open multi-range benchmark with 110 vulnerabilities across 15 web applications and eight enterprise-like ranges containing 156 hosts, evaluating autonomous web exploitation and post-exploitation workflows.  
+  **Emerging · Benchmark** · `llm` `agent` `automated-penetration-testing` `web-exploitation` `post-exploitation` `lateral-movement` `web` `network` `host` `offensive` `cyber-range` `execution-grounded`
 
 - **Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents**  
   Pengfei He et al. *ICML 2026*.  

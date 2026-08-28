@@ -1,4 +1,45 @@
 papers:
+  - id: "agentcyberrange-2026"
+    title: "AgentCyberRange: Benchmarking Frontier AI Systems in Realistic Cyber Ranges"
+    authors: ["Fengyu Liu", "Jiarun Dai", "Yihe Fan", "Wuyuao Mai", "Ziao Li", "Bofei Chen", "Jie Zhang", "Zheng Lou", "Bocheng Xiang", "Qiyi Zhang", "Xudong Pan", "Geng Hong", "Yuan Zhang", "Min Yang"]
+    year: 2026
+    venue: "arXiv"
+    status: "preprint"
+    paper_type: "benchmark"
+    urls:
+      paper: "https://arxiv.org/abs/2606.14295"
+      arxiv: "https://arxiv.org/abs/2606.14295"
+      code: "https://github.com/AgentCyberRange"
+      web_dataset: "https://huggingface.co/datasets/AgentCyberRange/WebExploitBench"
+      post_exploitation_dataset: "https://huggingface.co/datasets/AgentCyberRange/PostExploitBench"
+      project: "https://agentcyberrange.io/"
+      leaderboard: "https://agentcyberrange.io/"
+    taxonomy:
+      primary: "exploitation/automated-penetration-testing"
+      tasks: ["automated-penetration-testing", "web-exploitation", "post-exploitation", "lateral-movement", "privilege-escalation"]
+      domains: ["web", "network", "host"]
+      ai_paradigms: ["llm", "agent"]
+      security_role: "offensive"
+      evaluation: ["real-world", "cyber-range", "execution-grounded"]
+    reading:
+      priority: "emerging"
+      contribution: "Introduces an open, multi-range benchmark for autonomous web exploitation and post-exploitation, combining 110 vulnerabilities across 15 real applications with eight enterprise-like ranges containing 156 internal hosts."
+      why_read: "It moves offensive-agent evaluation beyond isolated CTF or single-vulnerability tasks toward reproducible, multi-host intrusion workflows with automated execution and verification."
+      limitations: ["The paper is a recent preprint without archival peer review.", "A finite set of applications and enterprise-like ranges cannot represent the full diversity of real operational networks.", "Performance estimates are sensitive to rapidly changing models, agent harnesses, prompts, tools, and inference budgets."]
+    benchmark:
+      web_vulnerabilities: 110
+      web_applications: 15
+      cyber_ranges: 8
+      internal_hosts: 156
+      evaluated_systems: 6
+      unit: "web exploitation tasks and post-exploitation objectives"
+      task_origin: "mixed"
+    artifacts: ["code", "dataset", "benchmark", "evaluation-harness", "reproducible-environment", "leaderboard"]
+    curation:
+      added: "2026-08-28"
+      last_verified: "2026-08-28"
+      notes: "Paper metadata, benchmark scale, repositories, datasets, project page, and evaluation scope were verified against arXiv and the official AgentCyberRange resources."
+
   - id: "cybergym-2026"
     title: "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale"
     authors: ["Zhun Wang", "Tianneng Shi", "Jingxuan He", "Matthew Cai", "Jialin Zhang", "Dawn Song"]
