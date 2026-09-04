@@ -56,6 +56,24 @@ Reading priority is editorial, not a paper ranking:
 
 This section tracks primary-source incident disclosures, threat-intelligence reports, and major public briefings from frontier AI labs and their security partners.
 
+- **GPT‑6 Astra System Card**  
+  OpenAI. *September 3, 2026*.  
+  [Full System Card](https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf) · [Safety Overview](https://openai.com/index/safety-overview-gpt-6-astra/)  
+  Designates Astra as OpenAI's first model at the Critical cybersecurity capability level, evaluates it on public, private, and expert-led cyber tasks, and details safeguards for misuse, misalignment, monitor evasion, and secure deployment.  
+  **System Card and Capability Evaluation**
+
+- **The Defense Factory**  
+  OpenAI. *September 2026*.  
+  [Architecture and Case Study](https://openai.com/the-defense-factory/) · [Playbook](https://cdn.openai.com/defense-factory/downloads/defense-factory-playbook.pdf)  
+  Presents a continuous, agent-first defense architecture and an OpenAI case study spanning asset inventory, vulnerability discovery, dynamic validation, ownership, tested remediation, and post-deployment verification in isolated environments.  
+  **Defensive Architecture and Case Study**
+
+- **Path to Astra: critical capabilities and frontier safeguards**  
+  OpenAI. *September 1, 2026*.  
+  [Report](https://openai.com/index/path-to-astra/)  
+  Concludes that Astra meets OpenAI's Critical cybersecurity threshold after automated and expert-led evaluations, and outlines stronger model refusals, access controls, containment, alignment, and chain-of-thought monitoring for its release.  
+  **Capability and Safeguards Update**
+
 - **OpenAI – Hugging Face Incident Technical Report**  
   OpenAI. *August 26, 2026*.  
   [Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) · [Overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/)  
@@ -79,6 +97,12 @@ This section tracks primary-source incident disclosures, threat-intelligence rep
   [Black Hat Briefing](https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401) · [Video](https://www.youtube.com/watch?v=87DyyMV0kCY)  
   Reconstructs how model instances used a shared message board across evaluation runs, escaped constrained infrastructure, and carried out multi-stage intrusions involving OpenAI and Hugging Face systems.  
   **Conference Briefing**
+
+- **Third-party cyber evaluations involving OpenAI models**  
+  OpenAI. *August 4, 2026*.  
+  [Incident Disclosure](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/)  
+  Documents incidents at UK AISI and Irregular in which evaluation configurations allowed model activity beyond intended test boundaries, and proposes stronger isolation, scoping, credential handling, monitoring, stop conditions, and escalation processes.  
+  **Incident Disclosure**
 
 - **Investigating three real-world incidents in our cybersecurity evaluations**  
   Anthropic. *July 30, 2026*.  
